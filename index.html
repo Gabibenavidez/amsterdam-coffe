@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Amsterdam Coffee Experience: Premium programs, real stories, and more." />
+  <title>Amsterdam Coffee</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Google Font Example -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--[if IE]>
+    <script>alert("This site works best in modern browsers like Chrome or Firefox.");</script>
+  <![endif]-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" aria-label="Main Navigation">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="/">
+            <img class="logo-img" src="./img/logo@2x.png" alt="Coffee Maker Logo" width="270" height="149" loading="lazy" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" 
+                  aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+            <ul class="navbar-nav rust-font">
+              <li class="nav-item"><a class="nav-link active top" aria-current="page" href="#program">Program</a></li>
+              <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+              <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              <li class="nav-item"><a class="nav-link phone-number" href="tel:+31201234567" class="text-black text-decoration-none">
+                <i class="fas fa-phone-alt"></i> +31 20 123 4567
+              </a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      
+  <!-- Hero Section -->
+  <section class="hero bg-light text-center text-white d-flex align-items-center">
+    <div class="container py-5">
+        <div class="py-3 d-flex align-items-center justify-content-center gap-3">
+          <i class="fa fa-star yellow" aria-hidden="true"></i>
+          <i class="fa fa-star yellow" aria-hidden="true"></i>
+          <i class="fa fa-star yellow" aria-hidden="true"></i>
+        </div>
+        <p class="minion-font">Intensive program barista training</p>
+      <h1 class="display-4 fw-bold rust-font">Barista training in <span class="text-warning">Amsterdam</span></h1>
+      <p class="lead minion-font">On the basis of the company´s largest coffee roasters</p>
+    </div>
+    <div class="image-border-wrapper">
+      <img src="./img/border_2@2x.png" alt="Bottom curve" class="img-fluid img-border-2 position-absolute bottom-1 start-0 w-100" style="z-index: 1;">
+    </div>
+    <img src="./img/coffe-bean_1@2x.png" alt="Coffe bean" class="img-fluid coffee-bean-1 position-absolute" />
+    <img src="./img/coffe-bean_3@2x.png" alt="Coffe bean" class="img-fluid coffee-bean-3 position-absolute" />
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="py-5">
+    <div class="container text-center">
+      <div class="d-flex align-items-center justify-content-center gap-3">
+        <i class="fa fa-star mb-4" aria-hidden="true"></i>
+        <h2 class="mb-4 rust-font m-0">Programs</h2>
+        <i class="fa fa-star mb-4" aria-hidden="true"></i>
+      </div>
+      <p class="minion-font">We share their expierence and professional barista championship multiple winners</p>
+      <ul class="nav nav-tabs justify-content-center" id="programTabs" role="tablist">
+        <li class="nav-item programs" role="presentation">
+          <button class="nav-link active rust-font" id="basic-tab" data-bs-toggle="tab" data-bs-target="#basic" type="button" role="tab">Basic</button>
+        </li>
+        <li class="nav-item programs" role="presentation">
+          <button class="nav-link rust-font" id="premium-tab" data-bs-toggle="tab" data-bs-target="#premium" type="button" role="tab">Premium</button>
+        </li>
+        <li class="nav-item programs" role="presentation">
+          <button class="nav-link rust-font" id="platinum-tab" data-bs-toggle="tab" data-bs-target="#platinum" type="button" role="tab">Platinum</button>
+        </li>
+      </ul>
+      <div class="container section">
+        <div class="row align-items-start g-4">
+          <!-- Image -->
+          <div class="col-lg-6">
+            <img src="./img/coffe-machine@2x.png" alt="Coffee machine" class="img-fluid">
+          </div>
+      
+          <!-- Course Details -->
+          <div class="col-lg-6 position-relative">
+            <div class="course-box">
+              <h2 class="minion-font">Beginners Course</h2>
+              <p class="minion-font"><i class="fa fa-certificate" aria-hidden="true"></i> Certificate</p>
+              <p class="minion-font"><i class="fa fa-clock" aria-hidden="true"></i>  240 minutes</p>
+              <h3 class="mt-1 mb-2 fw-bold minion-font">1 500 <small>USD</small></h3>
+              <a class="btn btn-dark text-uppercase px-4 py-2 rust-font" href="#">Registration</a>
+            </div>
+          </div>
+        </div>
+        <img src="./img/coffe-bean_2@2x.png" alt="Coffe bean" class="img-fluid coffee-bean-2 position-absolute" />
+      
+        <!-- Horizontal Rule -->
+        <div class="horizontal-rule"></div>
+      
+        <!-- Three Column Content -->
+        <div class="row text-start mb-5">
+          <div class="col-md-4">
+            <br>
+            <div class="section-title rust-font">Provenance<br>Coffee and Basic Concepts:</div>
+            <ul class="minion-font">
+              <li>- Legend of the origin of coffee.</li>
+              <li>- Chronicle of the spread of the coffee tree</li>
+              <li>- What is coffee?</li>
+              <li>- The structure of the coffee berry</li>
+              <li>- Arabica and Robusta</li>
+              <li>- Coffee Belt land</li>
+              <li>- Fruiting coffee tree</li>
+              <li>- Seven steps of the coffee plantation to the consumer</li>
+              <li>- Breeding and hybridization of coffee tree</li>
+            </ul>
+          </div>
+      
+          <div class="col-md-4">
+            <br>
+            <br>
+            <div class="section-title rust-font">Coffee Production Technology:</div>
+            <ul class="minion-font">
+              <li>- Methods for collecting coffee berries</li>
+              <li>- Processing collected berries</li>
+              <li>- Calibration and sorting</li>
+              <li>- Some methods of classification and labeling of coffee beans.</li>
+              <li>- Formation of grade names.</li>
+              <li>- Storage of green (not fried) Coffee</li>
+            </ul>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="section-title rust-font">Roasting Technology <br>Bean. And Stage <br>Types of Roasting.</div>
+            <ul class="minion-font">
+              <li>- The technology of roasting coffee beans.</li>
+              <li>- Changes in the beans.</li>
+              <li>- Stages and types of roasting</li>
+              <li>- Roasted coffee. Monsoorat and hood.</li>
+              <li>- Decaffeination of coffee</li>
+              <li>- Flavoring</li>
+              <li>- Storage roasted coffee</li>
+            </ul>
+          </div>
+        </div>
+      
+        <!-- Table Section -->
+        <div class="mb-5">
+          <div class="section-title course">The Course Also Includes:</div>
+          <table class="table table-bordered">
+            <tbody class="minion-font">
+              <tr><td><span class="check-icon"><i class="fa fa-check" aria-hidden="true"></i></span> <span class="table-content">Coffee machine and grinder - practice - types of coffee machines and coffee grinders</span></td></tr>
+              <tr><td><span class="check-icon"><i class="fa fa-check" aria-hidden="true"></i></span> <span class="table-content"> What makes professional coffee machines and coffee grinders.</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">Main components of coffee machines and coffee - Lathes, autolathes. Their purpose</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">How to choose a coffee machine and coffee grinder</span></td></tr>
+              <tr><td><span class="check-icon"><i class="fa fa-check" aria-hidden="true"></i></span> <span class="table-content">The structure of the machine. How to maintain, clean and customize coffee machine</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">The structure of the grinders. How to maintain, clean and customize coffee Molko</span></td></tr>
+              <tr><td><span class="check-icon"><i class="fa fa-check" aria-hidden="true"></i></span> <span class="table-content">Making beverages - pratikka - machines and espresso rules</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">Technology and regulations frothed milk</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">Terms of tasting coffee</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">Terms of preparation of standard drinks line: espresso, cappuccino, latte and others.</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">Latte Art - Features practice and the importance of Latte Art in business and the barista&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+              <tr><td><span class="check-icon"><i class="fa fa-check" aria-hidden="true"></i></span> <span class="table-content">2 views Latte Art - Pitching</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">2 views Latte Art - topping</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">3 views Latte Art - Etching</span></td></tr>
+              <tr><td><span class="x-icon"><i class="fa fa-close" aria-hidden="true"></i></span> <span class="table-content">4 views Latte Art - chocolate chip stencils</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="image-border-wrapper">
+      <img src="./img/border_1@2x.png" alt="Bottom curve" class="img-fluid img-border-1 position-relative w-100" style="z-index: 1;">
+      <img src="./img/coffe-bean_4@2x.png" alt="Coffe bean" class="img-fluid coffee-bean-4 position-absolute" />
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section py-5 text-center text-white bg-dark align-items-center" style="background: url('img/gallery-background@2x.png') no-repeat center center / cover; min-height: 80vh; width: 100%; height: 100%;">
+    <div class="container gallery">
+      <div class="gallery-header mb-4">
+        <h2 class="gallery-title rust-font">GALLERY</h2>
+        <p class="small minion-font">
+          You yourself are seeing the taste benefits of each method
+          and select the type of cooking yourself
+        </p>
+      </div>
+  
+      <div class="position-relative">
+        <!-- Slider -->
+        <div id="gallerySlider" class="d-flex overflow-hidden">
+          <div class="slider-track d-flex" style="transition: transform 0.5s ease;">
+            <div class="col-md-4 px-2">
+              <img src="./img/gallery-item-2@2x.png" class="img-fluid image-gallery-item rounded shadow" loading="lazy" alt="Gallery 1">
+            </div>
+            <div class="col-md-4 px-2">
+              <img src="./img/gallery-item-3@2x.png" class="img-fluid image-gallery-item rounded shadow" loading="lazy" alt="Gallery 2">
+            </div>
+            <div class="col-md-4 px-2">
+              <img src="./img/gallery-item-1@2x.png" class="img-fluid image-gallery-item rounded shadow" loading="lazy" alt="Gallery 3">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Navigation -->
+        <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+          <button id="prevBtn" class="btn btn-outline-warning rounded-pill px-4">&#8592;</button>
+          <span id="galleryCounter" class="text-light small">5 of 10</span>
+          <button id="nextBtn" class="btn btn-outline-warning rounded-pill px-4">&#8594;</button>
+        </div>
+      </div>
+    </div>
+    <div class="image-border-wrapper">
+      <img src="./img/border_2@2x.png" alt="Bottom curve" class="img-fluid img-border-3 position-relative bottom-1 start-0 w-100" style="z-index: 1;">
+      <img src="./img/coffe-bean_5@2x.png" alt="Coffe bean" class="img-fluid coffee-bean-5 position-absolute" />
+    </div>
+  </section>
+  
+  
+  
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-3 rust-font">TESTIMONIALS</h2>
+      <p class="mb-5 minion-font">We have enough patience to teach you the art of coffee</p>
+  
+      <div class="row justify-content-center">
+        <!-- Testimonial Card -->
+        <div class="col-md-6">
+          <img src="./img/testimonial-alex@2x.png" alt="Alex Nikandrov" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+          <h5 class="mb-1 fw-bold rust-font">Alex Nikandrov</h5>
+          <p class="mb-3 text-muted minion-font">Our company is grateful for the delicious and freshly roasted coffee in our office every day! Our staff of more than 300 people appreciate quality and flavor of the coffee, because that would be important for our office staff were every morning refreshed and in a good mood! Recommended!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Partners -->
+  <section id="partners" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4 rust-font">Our Partners</h2>
+      <div class="row g-3 justify-content-center partners-img-section">
+        <div class="col-4 col-md-2">
+          <img src="./img/partner1@2x.png" alt="Partner logo 1" class="img-fluid img-partners grayscale" />
+        </div>
+        <div class="col-4 col-md-2">
+          <img src="./img/partner2@2x.png" alt="Partner logo 2" class="img-fluid img-partners grayscale" />
+        </div>
+        <div class="col-4 col-md-2">
+          <img src="./img/partner3@2x.png" alt="Partner logo 3" class="img-fluid img-partners grayscale" />
+        </div>
+        <div class="col-4 col-md-2">
+          <img src="./img/partner4@2x.png" alt="Partner logo 3" class="img-fluid img-partners grayscale" />
+        </div>
+        <div class="col-4 col-md-2">
+          <img src="./img/partner5@2x.png" alt="Partner logo 3" class="img-fluid img-partners grayscale" />
+        </div>
+        <div class="col-4 col-md-2">
+          <img src="./img/partner6@2x.png" alt="Partner logo 3" class="img-fluid img-partners grayscale" />
+        </div>
+      </div>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button> -->
+    </div>
+  </section>
+
+    <!-- Contact Section -->
+    <section class="py-5 text-center contact">
+      <img src="./img/coffe-beans_1@2x.png" alt="Bottom curve" class="img-fluid coffe-beans-1 position-absolute bottom-1">
+      <img src="./img/coffe-bean_6@2x.png" alt="Bottom curve" class="img-fluid coffe-bean-6 position-absolute bottom-1">
+      <div class="container questions-container">
+        <h2 class="section-title-questions rust-font">Have Questions?</h2>
+        <p class="mb-3 question-paragraph minion-font">Leave a request and we will contact you shortly</p>
+        <form class="contact-form column" aria-label="Contact Form">
+          <div class="col-12">
+            <div class="d-flex flex-column flex-sm-row gap-5 justify-content-space-between">
+              <div class="inputs-div">
+                <div class="flex-fill">
+                  <label for="phone" class="visually-hidden">Contact Number</label>
+                  <input type="tel" id="phone" class="form-control rust-font" placeholder="CONTACT NUMBER" required />
+                </div>
+                <div class="flex-fill">
+                  <label for="name" class="visually-hidden">Your Name</label>
+                  <input type="text" id="name" class="form-control rust-font" placeholder="YOUR NAME" required />
+                </div>
+              </div>
+              <div>
+                <button type="submit" class="btn send-button rust-font" aria-label="Send contact form">Send</button>
+              </div>
+            </div>
+          </div>
+        </form>        
+      </div>
+      <div class="image-border-wrapper">
+        <img src="./img/border_1@2x.png" alt="Bottom curve" class="img-fluid img-border-4 position-relative bottom-1 start-0 w-100" style="z-index: 1;">
+      </div>
+    </section>
+  
+    <!-- About / Program Info Section -->
+    <section class="section-dark about-footer position-relative py-5 text-white" style="background-color: #0d0d0d;">
+      <div class="container position-relative z-2 footer-section">
+        <h2 class="text-center fw-bold mb-5 rust-font" style="letter-spacing: 1px;">PROFESSIONAL SCHOOL <br>BARISTA</h2>
+        <div class="row mb-5 minion-font">
+          <div class="col-md-6">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+          </div>
+          <div class="col-md-6">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+          </div>
+        </div>
+    
+        <div class="row text-center border-top border-bottom py-4 gx-0 rust-font">
+          <div class="col-md-3 border-end">
+            <p class="mb-1">PROGRAM</p>
+          </div>
+          <div class="col-md-3 border-end">
+            <p class="mb-1">GALLERY</p>
+          </div>
+          <div class="col-md-3 border-end">
+            <p class="mb-1">TESTIMONIALS</p>
+          </div>
+          <div class="col-md-3">
+            <p class="mb-1">CONTACT</p>
+          </div>
+        </div>
+    
+        <div class="row text-center mt-4 rust-font">
+          <div class="col-md-4">
+            <p class="mb-0"><span aria-hidden="true">📞</span> <a href="tel:+380000000000" class="text-white text-decoration-none">+38 000 000 000</a></p>
+          </div>
+          <div class="col-md-4">
+            <p class="mb-0"><span aria-hidden="true">📍</span> Ukraine, 61002</p>
+          </div>
+          <div class="col-md-4">
+            <p class="mb-0"><span aria-hidden="true">✉️</span> <a href="mailto:hello@.com" class="text-white text-decoration-none">hello@.com</a></p>
+          </div>
+        </div>
+      </div>
+    
+    
+  
+      <!-- Footer -->
+      <footer class="py-3 text-center">
+        <div class="container">
+          <p class="mb-0 minion-font">&copy; Copyright 2017 - All Rights Reserved.</p>
+        </div>
+      </footer>
+  </section>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
