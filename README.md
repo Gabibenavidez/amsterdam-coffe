@@ -110,7 +110,7 @@ Images are automatically upgraded on retina/high-DPI screens to deliver sharper 
 
 ## 📸 Screenshots
 
-Coming soon...
+![Amsterdam Coffee Homepage](./index.jpg)
 
 ---
 
